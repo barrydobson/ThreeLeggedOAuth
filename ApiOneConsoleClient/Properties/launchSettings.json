@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ApiOneConsoleClient": {
+      "commandName": "Project",
+      "commandLineArgs": "set-context local apione-client code"
+    }
+  }
+}
