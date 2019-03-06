@@ -1,3 +1,5 @@
+Taken from my blog post https://www.barrydobson.com/post/three-legged-oauth/
+
 # Three Legged OAuth
 
 Sometimes there is a situation where there is a client application (SPA, or native mobile app for instance), which needs to access an API (resource). Let's say that API requires that users be authenticated using an OAuth service. In this case the user (resource owner) will login with an authentication service via the client app. If successful the authentication service will issue an access token, and the client application can use this in an Authentication header to access the resource.
